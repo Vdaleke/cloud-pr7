@@ -1,0 +1,28 @@
+# Terraform local working directory
+.terraform/
+
+# Local state and backup files
+*.tfstate
+*.tfstate.backup
+
+# Generated plan files
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config and plugins (contains credentials)
+.terraformrc
+.terraform.d/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
